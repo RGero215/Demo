@@ -7,14 +7,7 @@ The app allows users to create an account to add book and review existing books.
 
 ## Implementation
 
-The app has two view controller scenes:
-
-- **RecordSoundsViewController** - consists a record button with a microphone image. Tapping this microphone button 
-starts an audio recording session and present a stop button. When the stop button is clicked, the app completes recording and then show the PlaySound controller.
-
-- **PlaySoundsViewController** - contains six buttons to play the recorded sound file with different effects and a button to stop the playback.
-
-The application uses code from `AVFoundation` to record sounds from the microphone (`AVAudioRecorder`) and play recorded audio with effects (`AVAudioPlayer`, `AVAudioEngine`).
+This app can be use in a local enviroment running the python server.py on a virtual env.
 
 ## Requirements
 
